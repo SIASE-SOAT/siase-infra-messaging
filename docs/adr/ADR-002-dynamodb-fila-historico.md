@@ -1,7 +1,7 @@
 # ADR-002 — DynamoDB para Estado de Fila e Histórico de Eventos
 
 **Status:** Aceito
-**Data:** 2025-01
+**Data:** 2026-11
 **Repositório:** siase-infra-messaging
 
 ## Contexto
