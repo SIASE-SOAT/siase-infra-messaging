@@ -1,7 +1,7 @@
 # RFC-001 — Infraestrutura de Mensageria do Saga Coreografado
 
 **Status:** Aprovado
-**Data:** 2025-01
+**Data:** 2026-11
 **Repositório:** siase-infra-messaging
 
 ## Resumo
