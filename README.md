@@ -41,3 +41,10 @@ IRSA da service account correspondente no EKS.
   para demonstrar o rollback/compensação do Saga no vídeo.
 - **DynamoDB PAY_PER_REQUEST**: suficiente para a carga do trabalho; sem
   provisionamento de capacidade.
+
+## Documentação
+
+- [Diagramas de Sequência](docs/diagramas-sequencia.md)
+- [ADR-001 — SQS como Backbone do Saga Coreografado](docs/adr/ADR-001-sqs-saga-coreografado.md)
+- [ADR-002 — DynamoDB para Fila e Histórico de Eventos](docs/adr/ADR-002-dynamodb-fila-historico.md)
+- [RFC-001 — Infraestrutura de Mensageria do Saga Coreografado](docs/rfc/RFC-001-infraestrutura-mensageria.md)
