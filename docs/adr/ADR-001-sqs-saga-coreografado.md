@@ -1,7 +1,7 @@
 # ADR-001 — SQS como Backbone do Saga Coreografado
 
 **Status:** Aceito
-**Data:** 2025-01
+**Data:** 2026-11
 **Repositório:** siase-infra-messaging
 
 ## Contexto
