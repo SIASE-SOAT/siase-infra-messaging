@@ -13,11 +13,11 @@ locals {
     }
     os-eventos = {
       name        = "${local.prefix}-os-eventos"
-      description = "Eventos de domínio publicados pelo os-service"
+      description = "Eventos de dominio publicados pelo os-service"
     }
     os-updates = {
       name        = "${local.prefix}-os-updates-queue"
-      description = "Eventos de atualização de status consumidos pelo os-service"
+      description = "Eventos de atualizacao de status consumidos pelo os-service"
     }
   }
 
@@ -27,7 +27,7 @@ locals {
       name         = "${local.prefix}-execution-fila"
       hash_key     = "osId"
       range_key    = null
-      description  = "Estado em tempo real da fila de execução (NA_FILA, EM_EXECUCAO, FINALIZADA)"
+      description  = "Estado da fila de execucao"
       billing_mode = "PAY_PER_REQUEST"
       attributes   = [{ name = "osId", type = "S" }]
     }
@@ -35,7 +35,7 @@ locals {
       name         = "${local.prefix}-os-eventos-historico"
       hash_key     = "osId"
       range_key    = "timestampEvento"
-      description  = "Histórico de eventos de domínio das Ordens de Serviço"
+      description  = "Historico de eventos de dominio das ordens de servico"
       billing_mode = "PAY_PER_REQUEST"
       attributes = [
         { name = "osId", type = "S" },
